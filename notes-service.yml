@@ -7,6 +7,11 @@ notes:
 ---
 spring:
   profiles: default
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
 eureka:
   instance:
     # enable to register multiple app instances with a random server port
